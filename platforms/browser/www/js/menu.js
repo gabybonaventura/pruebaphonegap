@@ -20,7 +20,7 @@ function main(){
 
 function desaparece()
 {
-    document.getElementById("aparece_p").style.display = "none";
+    $("#aparece_p").hide();
 }
 function aparece()
 {
