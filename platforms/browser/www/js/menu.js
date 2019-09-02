@@ -17,3 +17,12 @@ function main(){
         }
     });
 };
+
+function desaparece()
+{
+    document.getElementById("aparece_p").style.display = "none";
+}
+function aparece()
+{
+    document.getElementById("aparece_p").style.display = "block";
+}
